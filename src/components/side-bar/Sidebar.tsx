@@ -1,8 +1,7 @@
 import React, { Fragment } from 'react';
-import { IconType } from 'react-icons';
 import { FaFire, FaHome } from 'react-icons/fa';
 
-const Sidebar: React.FC<any> = (props) => {
+const Sidebar = () => {
   return (
     <Fragment>
       <div className='fixed top-0 left-0 w-24 h-screen m-0 flex flex-col bg-primary text-white shadow-lg'>
